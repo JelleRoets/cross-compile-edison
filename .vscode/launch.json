@@ -1,0 +1,46 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "gdb",
+            "request": "launch",
+            "name": "Launch over ssh",
+            "target": "./HelloBlink",
+            "cwd": "${workspaceRoot}",
+            "arguments": "",
+            "preLaunchTask": "uploadSrc",
+            "internalConsoleOptions": "openOnSessionStart",
+            "ssh": {
+                "host": "192.168.1.19",
+                "keyfile": "/Users/jelle/.ssh/id_rsa",
+                "user": "root",
+                "cwd": "/home/root/projects/HelloBlink",
+                "forwardX11": false,
+            }
+        },
+        {
+            "name": "Connect gdbserver",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/HelloBlink",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false, 
+            "MIMode": "gdb",
+            "miDebuggerServerAddress": "192.168.1.19:9876",
+            "setupCommands": [
+                {
+                    "description": "set sysroot",
+                    "text": "set sysroot ~/.edisonSysroot/",
+                    "ignoreFailures": false
+                }
+            ],
+            // "preLaunchTask": "debug",
+        }
+    ]
+}

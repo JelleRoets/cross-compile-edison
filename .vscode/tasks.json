@@ -1,0 +1,48 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "make",
+            "type": "shell",
+            "command": "make",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "upload",
+            "type": "shell",
+            "command": "make upload",
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "run",
+            "type": "shell",
+            "command": "make run",
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "uploadSrc",
+            "type": "shell",
+            "command": "make uploadSrc",
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "debug",
+            "type": "shell",
+            "command": "make debug",
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "make clean",
+            "problemMatcher": ["$gcc"]
+        },
+
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "~/.edisonSysroot/usr/include/c++/4.9.1",
+                "~/.edisonSysroot/usr/include/c++/4.9.1/i586-poky-linux",
+                "~/.edisonSysroot/usr/include/c++/4.9.1/backward",
+                "~/.edisonSysroot/usr/lib/gcc/i586-poky-linux/4.9.1/include",
+                "~/.edisonSysroot/usr/lib/gcc/i586-poky-linux/4.9.1/include-fixed",
+                "~/.edisonSysroot/usr/include",
+                "${workspaceRoot}"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "~/.edisonSysroot/usr/include/c++/4.9.1",
+                    "~/.edisonSysroot/usr/include/c++/4.9.1/i586-poky-linux",
+                    "~/.edisonSysroot/usr/include/c++/4.9.1/backward",
+                    "~/.edisonSysroot/usr/lib/gcc/i586-poky-linux/4.9.1/include",
+                    "~/.edisonSysroot/usr/lib/gcc/i586-poky-linux/4.9.1/include-fixed",
+                    "~/.edisonSysroot/usr/include",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ]
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "~/.edisonSysroot/usr/include/c++/4.9.1",
+                "~/.edisonSysroot/usr/include/c++/4.9.1/i586-poky-linux",
+                "~/.edisonSysroot/usr/include/c++/4.9.1/backward",
+                "~/.edisonSysroot/usr/lib/gcc/i586-poky-linux/4.9.1/include",
+                "~/.edisonSysroot/usr/lib/gcc/i586-poky-linux/4.9.1/include-fixed",
+                "~/.edisonSysroot/usr/include",
+                "${workspaceRoot}"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "~/.edisonSysroot/usr/include/c++/4.9.1",
+                    "~/.edisonSysroot/usr/include/c++/4.9.1/i586-poky-linux",
+                    "~/.edisonSysroot/usr/include/c++/4.9.1/backward",
+                    "~/.edisonSysroot/usr/lib/gcc/i586-poky-linux/4.9.1/include",
+                    "~/.edisonSysroot/usr/lib/gcc/i586-poky-linux/4.9.1/include-fixed",
+                    "~/.edisonSysroot/usr/include",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:/.edisonSysroot/usr/include/c++/4.9.1",
+                "C:/.edisonSysroot/usr/include/c++/4.9.1/i586-poky-linux",
+                "C:/.edisonSysroot/usr/include/c++/4.9.1/backward",
+                "C:/.edisonSysroot/usr/lib/gcc/i586-poky-linux/4.9.1/include",
+                "C:/.edisonSysroot/usr/lib/gcc/i586-poky-linux/4.9.1/include-fixed",
+                "C:/.edisonSysroot/usr/include",
+                "${workspaceRoot}"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [
+                    "C:/.edisonSysroot/usr/include/c++/4.9.1",
+                    "C:/.edisonSysroot/usr/include/c++/4.9.1/i586-poky-linux",
+                    "C:/.edisonSysroot/usr/include/c++/4.9.1/backward",
+                    "C:/.edisonSysroot/usr/lib/gcc/i586-poky-linux/4.9.1/include",
+                    "C:/.edisonSysroot/usr/lib/gcc/i586-poky-linux/4.9.1/include-fixed",
+                    "C:/.edisonSysroot/usr/include",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 3
+}
