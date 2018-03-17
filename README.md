@@ -126,9 +126,9 @@ In order to debug our project directly from VScode we need to specify some [laun
 The main advantage of this last approach is that you can start debugging with a single click on the 'Start Debugging (F5)' button and it runs more smoothly than the first approach. The disadvantage is that it needs the source files on the remote, which can be problematic when space is limited on the remote. Choose the approach that best fits your needs.
 
 ### Conclusion
-This example integration of the generic makefile into VSCode IDE gives a fully-featured alternative to Intel System Studio Iot Edition for developing and debugging c/c++ projects for Intel Edison. This approach could be extended to other platforms and IDE's.
+This example integration of the generic makefile into VSCode IDE shows a fully-featured alternative to Intel System Studio Iot Edition for developing and debugging c/c++ projects for Intel Edison. This approach could be extended to other platforms and IDE's.
 
 ## Credits, feedback and contributions
-This example project was developed by Jelle Roets and tested on mac OSX 10.13 together with an Intel Edison. My incentive was to able to continue my own project, but I released ([MIT](LICENSE)) this generic makefile together with an example project to hopefully help others, facing similar issue. If you would have any problems, comments, questions or suggestions: all feedback, improvements and extensions are very welcome: you can file an issue on github or even send a pull-request for this example project.
+This project was developed by Jelle Roets and tested on mac OSX 10.13 together with an Intel Edison. My incentive was to be able to continue my own project, but I released ([MIT](LICENSE)) this generic makefile together with an example project to hopefully help others, facing similar issue. If you would have any problems, comments, questions or suggestions: all feedback, improvements and extensions are very welcome: you can file an issue on github or even send a pull-request for this example project.
 
 Thanks to [Mitch Allen](https://github.com/mitchallen/pi-hello-cross-compile) for his tutorial [How to cross-compile for Raspberry Pi](https://www.desertbot.io/blog/how-to-cross-compile-for-raspberry-pi/) that served as a good starting point for this tutorial!
